@@ -1,0 +1,21 @@
+header{
+    background-color: rgb(30, 15, 65);
+}
+#ApLogo{
+    width: 160px;
+}
+button{
+    border-radius: 25%;
+    float: right;
+    margin-top: 35px;
+    margin-left: 10px;
+}
+#LinkedIn{
+    float: right;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+#GitHub{
+    float: right;
+    margin-top: 20px;
+}
