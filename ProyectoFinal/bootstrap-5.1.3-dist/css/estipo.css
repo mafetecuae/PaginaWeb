@@ -19,3 +19,8 @@ button{
     float: right;
     margin-top: 20px;
 }
+
+.container img{
+    margin: auto;
+    width: 100%;
+}
