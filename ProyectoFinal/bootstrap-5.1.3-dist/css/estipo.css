@@ -2,7 +2,7 @@ body{
     font-family: sans-serif;
 }
 header{
-    background-color: rgb(30, 15, 65);
+    background-color: rgb(35, 35, 37);
 }
 #ApLogo{
     width: 160px;
@@ -31,19 +31,24 @@ button{
     text-align: center;
     text-align: justify;
 }
-#AcercaDe #foto{
+#AcercaDe #Foto{
     margin-top: -70px;
     text-align: center;
-
+    width: 300px;
+}
+#Resumen{
+    margin: 20px;
 }
 @media(max-width: 991px){
     
-#foto{
-    width: 250px;
+#Foto{
     text-align: center;
     margin-top: -70px;
     margin: auto;
     width: 300px;
     margin-top: -70px;
+}
+#resumen h4{
+    text-align: center;
 }
 }
