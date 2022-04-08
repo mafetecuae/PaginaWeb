@@ -1,9 +1,20 @@
 body{
     font-family: sans-serif;
-    background-color: aliceblue;
+    background-color: rgb(35, 35, 37);
+    color: aliceblue;
+}
+header div{
+    background-color: rgb(67, 67, 70);
+    margin: 0;
 }
 header{
-    background-color: rgb(35, 35, 37);
+    background-color: rgb(67, 67, 70);
+}
+div{
+    background-color: rgb(67, 67, 70);
+    border-radius: 10px;
+    margin: 20px;
+
 }
 #ApLogo{
     width: 160px;
@@ -28,9 +39,9 @@ button{
     margin: auto;
     width: 100%;
 }
-#AcercaDe{
-    text-align: center;
-    text-align: justify;
+
+#Resumen{
+    margin-right: auto;
 }
 #AcercaDe #Foto{
     margin-top: -70px;
@@ -43,14 +54,16 @@ button{
 @media(max-width: 991px){
     
 #Foto{
-    text-align: center;
     margin-top: -70px;
     margin: auto;
     width: 300px;
-    margin-top: -70px;
 }
-#resumen h4{
+#Resumen h4{
     text-align: center;
+}
+#Resumen p{
+    margin: 10px;
+
 }
 .container h2{
     text-align: center;
