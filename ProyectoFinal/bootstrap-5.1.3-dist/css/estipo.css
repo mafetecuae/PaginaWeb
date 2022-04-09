@@ -94,3 +94,20 @@ button{
 #Educacion section{
     margin: 20px;
 }
+#habilidades{
+    margin: 20px;
+}
+#Habilidades article div{
+    margin: 50px auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
+    color: black;
+    background-color: rgb(67, 67, 70);
+    border: 15px solid rgb(185, 187, 49);
+    border-left: var();
+}
+#Habilidades article div h4{
+    margin: 15%;
+}
