@@ -1,9 +1,10 @@
 
 body{
-    font-family: sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: rgb(35, 35, 37);
     color: aliceblue;
 }
+/*head----------------------------------------------------*/
 header div{
     background-color: rgb(67, 67, 70);
     margin: 0;
@@ -20,27 +21,26 @@ div{
 #ApLogo{
     width: 160px;
 }
+button, #LinkedIn, #GitHub{
+    float: right;
+}
 button{
     border-radius: 25%;
-    float: right;
     margin-top: 35px;
     margin-left: 10px;
 }
 #LinkedIn{
-    float: right;
     margin-top: 20px;
     margin-left: 5px;
 }
 #GitHub{
-    float: right;
     margin-top: 20px;
 }
-
+/*acerca de----------------------------------------------------------*/
 .container img{
     margin: auto;
     width: 100%;
 }
-
 #Resumen{
     margin-right: auto;
 }
@@ -60,29 +60,24 @@ button{
     text-align: center;
     margin-left: -40px;
 }
-#Resumen p{
-    margin: 20px;
-}
+
 .container h2{
     text-align: center;
-    margin: 20px;
 }
 }
-#ExperienciaTrabajo img{
+/*experiencia----------------------------------------------------------*/
+#ExperienciaTrabajo img, #Educacion img{
     width: 100px;
     height: 100px;
     border-radius: 50%;
     align-content: center;
 }
-#Educacion img{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    align-content: center;
+/*all---------------------------------------------------------------*/
+#Educacion section, #Proyectos img,.titulo ,#Resumen p ,#habilidades, #ExperienciaTrabajo section, #Habilidades article div h4, .container h2, #Resumen{
+    margin: 10px;
 }
-#Educacion section, #habilidades, #ExperienciaTrabajo section, #Habilidades article div h4, .container h2, #Resumen{
-    margin: 20px;
-}
+
+/*habilidades------------------------------------------------------------*/
 #Habilidades article div{
     margin: 50px auto;
     width: 150px;
@@ -90,23 +85,37 @@ button{
     border-radius: 50%;
     text-align: center;
 }
-#CirculoProgreso{
-    margin: 50px auto;
+#CirculoProgreso, #CirculoProgreso:before, #CirculoProgreso:after{
     width: 150px;
     height: 150px;
     border-radius: 50%;
+}
+#CirculoProgreso{
+    margin: 50px auto;
     background: linear-gradient(to top, rgba(236, 234, 71) 0%,rgb(236, 234, 71) 50%,rgb(71, 71, 44) 0%);
     position: relative;
 }
-    #CirculoProgreso:before{
-        content: "";
-        width: 150px;
-        height: 150px;
-        position:absolute;
-        border-radius: 50%;
-        top: 0;
-        left: 0;
-        background: rgb(35, 35, 37) content-box;
-        padding: 10px;
-        box-sizing: border-box;
-    }
+#CirculoProgreso:before, #CirculoProgreso:after{
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+#CirculoProgreso:before{
+    content: "HTML 5";
+    background: rgb(35, 35, 37) content-box;
+    padding: 10px;
+    box-sizing: border-box;
+    line-height: 70px;
+}
+#CirculoProgreso:after{
+    content: "%";
+    background: linear-gradient(to top, rgb(67, 67, 70) 50%,rgb(236, 234, 71) 50%,transparent 0%);
+    transform: scale(1.1);
+    line-height: 130px;
+}
+/*Proyectos-----------------------------------------------------*/
+#Proyectos img{
+    width: 100px;
+    height: 100px;
+    align-content: center;
+}
