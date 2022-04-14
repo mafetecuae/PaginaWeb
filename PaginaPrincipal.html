@@ -15,7 +15,7 @@
             <div class="container">
                     <a id="ApLogo" href="https://www.argentina.gob.ar/produccion/transformacion-digital-y-economia-del-conocimiento/argentina-programa"><img id="ApLogo" src="ProyectoFinal/IMAGENES/APLogo-20-20.png"></a>
                     
-                    <button>LogIn</button>
+                    <button class="btn btn-outline-warning">LogIn</button>
                     
                         <a id="LinkedIn" href="https://www.linkedin.com/in/miguel-a-fetecua1metrology/">
                             <svg id="LinkedIn" xmlns="http://www.w3.org/2000/svg" width="20" height= "20" fill="white" class="bi bi-linkedin" viewBox="0 0 16 16">
@@ -188,48 +188,55 @@
 
         </div>
 
-        <div id="Proyectos" class="container">
+        <div id="carrusel" class="container">
             <section class="main row">
                 <div class="container titulo">
                     <h2>Proyectos</h2>
                 </div>
 
-                <article  class="col-sm-3 col-md-3 col-lg-3">
-                    <img src="ProyectoFinal/IMAGENES/baldor.jpg">
-                </article>
+                <div id="carruselsubtitulos" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carruselsubtitulos" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carruselsubtitulos" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carruselsubtitulos" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
 
-                <aside class="col-sm-9 col-md-9 col-lg-9">
-                        <h4><b>Servicio Nacional De Aprendizaje - SENA</b></h4>
-                        <h5>Tecnologo En Aseguramiento Metrólogico Industrial</h5>
-                        <h6>(2013-2016)</h6>
-                        <p>metrologia, calidad, aseguramiento metrologico, sistemas de gestion y calibraciones</p>
-                    </aside>
-            </section>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                                <img src="ProyectoFinal/IMAGENES/PROYECTO1.png" class="d-block w-100" alt="Proyecto 1">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>First slide label</h5>
+                                <p>Some representative placeholder content for the first slide.</p>
+                            </div>
+                        </div>
 
-            <section class="main row">
-                <article  class="col-sm-3 col-md-3 col-lg-3">
-                    <img src="ProyectoFinal/IMAGENES/baldor.jpg">
-                </article>
+                        <div class="carousel-item">
+                                <img src="..." class="d-block w-100" alt="Proyecto 2">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Second slide label</h5>
+                                <p>Some representative placeholder content for the second slide.</p>
+                            </div>
+                        </div>
 
-                <aside class="col-sm-9 col-md-9 col-lg-9">
-                        <h4><b>Servicio Nacional De Aprendizaje - SENA</b></h4>
-                        <h5>Tecnico En Programacion De Software</h5>
-                        <h6>(2010-2012)</h6>
-                        <p>Programacion de software, automatizacion, robotica y maquedato web</p>
-                    </aside>
-            </section>
+                        <div class="carousel-item">
+                                <img src="..." class="d-block w-100" alt="Proyecto 3">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Third slide label</h5>
+                                <p>Some representative placeholder content for the third slide.</p>
+                            </div>
+                        </div>
+                    </div>
 
-            <section class="main row">
-                <article  class="col-sm-3 col-md-3 col-lg-3">
-                    <img src="ProyectoFinal/IMAGENES/dersa.png">
-                </article>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carruselsubtitulos" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
 
-                <aside class="col-sm-9 col-md-9 col-lg-9">
-                        <h4><b>Domingo Sabio Bilingual School</b></h4>
-                        <h5>Bachiller bilingue</h5>
-                        <h6>(2006-2012)</h6>
-                        <p>Secundario con enfasis en ingles y tecnologia</p>
-                </aside>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carruselsubtitulos" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
             </section>
         </div>
 
