@@ -117,11 +117,15 @@ button{
     line-height: 130px;
 }
 /*Proyectos-----------------------------------------------------*/
-#carrusel, .carousel-inner, .carousel-inner img{
-    margin: auto;
-    width: 100%; 
-}
-
 .carousel-indicators, .carousel-caption{
-    background-color: transparent;
+    background-color: rgba(67, 67, 70, 0.6);
+}
+#carrusel, .carousel-inner{
+    margin: auto;
+    width: 100%;
+}
+.carousel-item img{
+    width: 500px;
+    margin: auto;
+    display: block;
 }
