@@ -21,11 +21,10 @@ div{
 #ApLogo{
     width: 160px;
 }
-input, #LinkedIn, #GitHub{
+#GitHub, #LinkedIn, #boton{
     float: right;
 }
-input{
-    border-radius: 25%;
+#boton{
     margin-top: 30px;
     margin-left: 10px;
 }
