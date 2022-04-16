@@ -21,12 +21,12 @@ div{
 #ApLogo{
     width: 160px;
 }
-button, #LinkedIn, #GitHub{
+input, #LinkedIn, #GitHub{
     float: right;
 }
-button{
+input{
     border-radius: 25%;
-    margin-top: 35px;
+    margin-top: 30px;
     margin-left: 10px;
 }
 #LinkedIn{
@@ -128,4 +128,28 @@ button{
     width: 500px;
     margin: auto;
     display: block;
+}
+/*Pagina de registro e inicio de sesion-----------------------------------------------*/
+.registro, .inicio{
+    box-sizing: border-box;
+    margin: auto;
+    padding: 3px;
+    margin-top: 80px;
+}
+.registro .container, .inicio .container{
+    width: 500px;
+    height: 450px;
+    padding: 15px;
+    text-align: center;
+}
+.registro .container .link, .inicio .container .link{
+    color: rgb(235, 184, 44);
+}
+.registro .container p, .inicio .container p{
+    margin-top: 15px;
+}
+.inicio .container{
+    width: 500px;
+    height: 300px;
+    padding: 15px;
 }
