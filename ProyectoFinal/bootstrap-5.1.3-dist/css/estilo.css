@@ -36,6 +36,22 @@ div{
     margin-top: 20px;
 }
 /*acerca de----------------------------------------------------------*/
+@media(max-width: 991px){
+#AcercaDe #Foto img{
+    width: 200px;
+}
+#AcercaDe #Foto{
+    margin-top: -70px;
+    margin: auto;
+}
+#Resumen h4{
+    text-align: center;
+    margin-right: 20px;
+}
+.container h2{
+    text-align: center;
+}
+}
 .container img{
     margin: auto;
     width: 100%;
@@ -47,22 +63,6 @@ div{
     margin-top: -70px;
     text-align: center;
     width: 300px;
-}
-@media(max-width: 991px){
-    
-#Foto{
-    margin-top: -70px;
-    margin: auto;
-    width: 300px;
-}
-#Resumen h4{
-    text-align: center;
-    margin-right: 20px;
-}
-
-.container h2{
-    text-align: center;
-}
 }
 /*experiencia----------------------------------------------------------*/
 #ExperienciaTrabajo img, #Educacion img{
