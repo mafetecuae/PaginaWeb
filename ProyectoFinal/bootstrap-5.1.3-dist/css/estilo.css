@@ -69,9 +69,15 @@ div{
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    align-content: center;
+    justify-content: center;
 }
-/*all---------------------------------------------------------------*/
+/*Todo---------------------------------------------------------------*/
+ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+}
+
 #Educacion section, #Proyectos img, .titulo, #Resumen p, #habilidades, #ExperienciaTrabajo section, #Habilidades article div h4, .container h2, #Resumen{
     margin: 10px;
 }
